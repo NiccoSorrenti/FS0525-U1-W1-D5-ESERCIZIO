@@ -1,0 +1,148 @@
+/* Your styles here */
+/* IMPOSTAZIONI GENERALI */
+/* dobbiamo ora riportare una sorta di gerarchia visiva nella pagina */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 0.5em 0; /* 1em sopra e sotto, 0 dx e sx */
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 0.25em 0;
+}
+
+ol,
+ul {
+  padding-left: 2em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+table {
+  margin: 1em 0;
+}
+
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Open Sans";
+}
+
+main {
+  text-align: center;
+}
+
+header {
+  background-image: url("./img/banner.jpg");
+}
+
+button {
+  color: white;
+  width: 50%;
+  padding: 5%;
+  border: none;
+  background-color: #f04c2f;
+  margin-top: 10%;
+  font-family: "Montserrat";
+  border-radius: 10px;
+}
+
+#banner {
+  padding: 15%;
+  text-align: center;
+}
+
+#banner h1 {
+  color: cornflowerblue;
+}
+
+#banner2 {
+  padding: 15%;
+}
+
+.titoloBanner2 {
+  color: cornflowerblue;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+#banner3 {
+  color: white;
+  background-color: #e22d0e;
+  padding: 5%;
+}
+
+#logoEpicode {
+  width: 100%;
+}
+
+#immagineNotebook {
+  border-radius: 50%;
+  width: 50%;
+  margin-top: 10%;
+}
+
+#foto1 {
+  width: 100%;
+}
+
+.paragrafoFoto {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #dee1e3;
+  border-top: none;
+  margin-top: 10%;
+}
+
+.titoloParagrafoFoto {
+  color: cornflowerblue;
+}
+
+.paragrafoScritto {
+  padding: 10%;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: #25a2c3;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6%;
+  box-sizing: border-box;
+  margin-top: 10%;
+}
+
+footer a {
+  color: white;
+}
+
+.fas {
+  margin-right: 1%;
+}
